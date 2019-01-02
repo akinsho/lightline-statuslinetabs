@@ -34,7 +34,7 @@ function! s:render_tab(tabnr) abort
   return s:tab_number_icons(a:tabnr)
 endfunction
 
-function! lightline#statuslinetabs() abort
+function! lightline#statuslinetabs#show() abort
   let l:total_number_of_tabs = tabpagenr('$')
   " Don't render anything if there is only one tab
   if l:total_number_of_tabs == 1
