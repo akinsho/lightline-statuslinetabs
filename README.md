@@ -20,7 +20,7 @@ plugin.
 let g:lightline = {}
 
 let g:lightline.component_expand = {
-\  'statuslinetabs': 'lightline#statuslinetabs',
+\  'statuslinetabs': 'lightline#statuslinetabs#show',
 \ }
 ```
 
