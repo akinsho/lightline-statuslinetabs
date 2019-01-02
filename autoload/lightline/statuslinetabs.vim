@@ -23,12 +23,14 @@ let s:tab_number_icons = get(g:, 'lightline#statusline_tabs#tab_number_icons', {
       \ 10: "❿",
       \})
 
-let s:add_tabname_prefix = { selected, nr -> s:left_separator . s:tab_number_icons[nr] . " " . selected . s:right_separator}
+let s:add_tabname_prefix = { selected, nr -> s:left_separator . s:tab_number_icons[nr] . selected . s:right_separator}
 
 function! s:render_tab(tabnr) abort
   " Prefix the selected tab
   if tabpagenr() == a:tabnr 
-    let l:tab_name = s:add_tabname_prefix(lightline#tab#filename(a:tabnr), a:tabnr)
+    let l:full_filename = lightline#tab#filename(a:tabnr) . " "
+    let l:formatted_name =  winwidth('.') <= 90 ? '' : l:full_filename
+    let l:tab_name = s:add_tabname_prefix(l:formatted_name, a:tabnr)
     return l:tab_name
   endif
   return s:tab_number_icons[a:tabnr]
