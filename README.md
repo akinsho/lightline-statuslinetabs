@@ -1,7 +1,9 @@
 # Lightline-StatuslineTabs
 
-A very small plugin to add tabs to status line for users of the **lighline**
+A very small plugin to add tabs to status line for users of the **lightline**
 plugin.
+
+![screenshot of plugin]('screenshot.png')
 
 ## Installation
 
