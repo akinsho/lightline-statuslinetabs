@@ -3,7 +3,7 @@
 A very small plugin to add tabs to status line for users of the **lightline**
 plugin.
 
-![screenshot of plugin]('./screenshot.png?raw=true')
+![screenshot of plugin](/screenshot.png?raw=true "screenshot of plugin")
 
 ## Installation
 
