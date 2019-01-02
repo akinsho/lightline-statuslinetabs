@@ -44,4 +44,3 @@ function! lightline#statusline_tabs() abort
   "call the render_tab function, then join the result into a string.
   return join(map(range(1, l:total_number_of_tabs), { -> s:render_tab(v:val) }))
 endfunction
-
