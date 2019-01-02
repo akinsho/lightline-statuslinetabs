@@ -5,10 +5,17 @@ plugin.
 
 ![screenshot of plugin](/screenshot.png?raw=true "screenshot of plugin")
 
+
+## Usage
+
+The active tab is surrounded by the separators (these default to unicode braces)
+the remaining tabs are rendered using the `tab_number_icons` map each number is rendered
+according to the icon it is mapped to e.g. `1: 🍎`.
+
 ## Installation
 
 * You can install this plugin using the plugin manager of your choice.
-    
+
 ### Example:
 ```vim
  Plug 'itchyny/lightline.vim'
