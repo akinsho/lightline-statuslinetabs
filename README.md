@@ -3,17 +3,17 @@
 A very small plugin to add tabs to status line for users of the **lightline**
 plugin.
 
-![screenshot of plugin]('screenshot.png')
+![screenshot of plugin]('./screenshot.png?raw=true')
 
 ## Installation
 
 * You can install this plugin using the plugin manager of your choice.
     
 ### Example:
-    ```vim
-    Plug 'itchyny/lightline.vim'
-    Plug 'Akin909/lightline-statuslinetabs'
-    ```
+```vim
+ Plug 'itchyny/lightline.vim'
+ Plug 'Akin909/lightline-statuslinetabs'
+```
 ## Integration
 1. Register the component
 ```vim
