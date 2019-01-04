@@ -43,17 +43,17 @@ let g:lightline = {
 
 * Tab Number Icons - To configure this provide an alternative map of the following format
     ```
-    let g:lightline#statusline_tabs#tab_number_icons = {
+    let g:lightline#statuslinetabs#tab_number_icons = {
         \ 1: 'Tab 1',
         \ 2: 'Tab 2',
         \ 3: 'Tab 3',
         \}
     ```
-    The keys must be numbers from 1-10 inclusive and the map should be called `g:lightline#statusline_tabs#tab_number_icons`
+    The keys must be numbers from 1-10 inclusive and the map should be called `g:lightline#statuslinetabs#tab_number_icons`
 * Tab Item separators
-   - `g:lightline#statusline_tabs#left_separator` should be set to your desired
+   - `g:lightline#statuslinetabs#left_separator` should be set to your desired
        icon
-  - `g:lightline#statusline_tabs#right_separator` should be set to your desired
+  - `g:lightline#statuslinetabs#right_separator` should be set to your desired
 
 ## Motivation
 
